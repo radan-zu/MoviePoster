@@ -6,11 +6,11 @@ public class PosterManager {
     private int limit;
 
     public PosterManager() {
-        this.limit=5;
+        this.limit = 5;
     }
 
     public PosterManager(int limit) {
-        this.limit=limit;
+        this.limit = limit;
     }
 
     public void add(String film) {
